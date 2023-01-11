@@ -11,10 +11,11 @@ export default function Home() {
       </h1>
       <p className="text-white sm:w-3/4 text-base sm:text-xl">
         I am a{" "} 
-        <span className="text-[#50AEF1] font-bold">Front-End Developer</span>, 
+        <span className="text-[#50AEF1] font-bold">Front-End Developer</span>,&nbsp;
         <span className="text-[#50AEF1] font-bold">Programmer</span> & a&nbsp;
         <span className="text-[#50AEF1] font-bold">Problem Solver</span>. I like 
-        to code in my free time and have an immense passion for coding.
+        to code in my free time and have an immense passion for coding and an&nbsp;
+        <span className="text-[#50AEF1] font-bold">Open-Source Enthusiast</span>.
       </p>
       <p className="text-white sm:w-3/4 text-base sm:text-xl my-4">
         I am currently a student at&nbsp;
