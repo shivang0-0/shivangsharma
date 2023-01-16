@@ -25,13 +25,13 @@ export default function Home() {
       <div className="links my-12 flex sm:justify-between sm:w-1/4">
         <Link href="/projects">
         <div className="link flex items-center justify-start sm:text-xl text-base text-[#ccc] font-bold cursor-pointer mr-4 sm:mr-0">
-          <img src="/icons/code.png" alt="code icon" />
+          <img src="/icons/code-24.ico" alt="code icon" />
           &nbsp; Projects
         </div>
         </Link>
         <Link href="/blog">
         <div className="link flex items-center justify-start sm:text-xl text-base text-[#ccc] font-bold cursor-pointer">
-          <img src="/icons/code.png" alt="code icon" />
+          <img src="/icons/pencil-16.ico" alt="code icon" />
           &nbsp; Blog
         </div>
         </Link>
