@@ -13,10 +13,10 @@ const Post = () => {
       <div>
         <h2 className="mt-4 text-white font-semibold text-xl">Post One</h2>
         <p className="text-[#ccc] mt-4">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dso
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dso
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat."
+          aliquip ex ea commodo consequat.
         </p>
         <Link href="/" className="text-white mt-4 inline-block">
           Read More...
