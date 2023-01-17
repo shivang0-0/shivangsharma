@@ -17,6 +17,14 @@ function MyApp({ Component, pageProps }) {
         <span className="absolute bottom-[-2rem] md:bottom-[-50%] left-[-10vw] h-[200px] w-full md:h-[750px] md:w-[750px] bg-gradient-to-r from-[#50AEF1] to-[#EE5DB4] filter blur-[100px] opacity-20 md:opacity-30 rounded-full"></span>
       </div>
       <Component {...pageProps} />
+      <div className="container w-[80%] md:w-[60%] mx-auto p-4 pl-0">
+        <p className="text-[#ccc] font-body text-md">
+          Made using <span className="text-[#50AEF1]">Next.JS</span>,&nbsp;
+          <span className="text-[#50AEF1]">Tailwind</span>,&nbsp;
+          <span className="text-[#50AEF1]">Typescript</span>&nbsp;&&nbsp;
+          <span className="text-[#50AEF1]">Vercel.</span>
+        </p>
+      </div>
     </>
   );
 }

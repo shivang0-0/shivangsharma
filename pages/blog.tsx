@@ -6,7 +6,7 @@ const Blog = () => {
     <>
       <Navbar />
       <div className="container mx-auto w-[80%] md:w-[60%] my-12">
-        <h1 className="text-white" font-bold text-2xl>
+        <h1 className="text-white font-bold text-2xl">
           Posts
         </h1>
         <Post />
