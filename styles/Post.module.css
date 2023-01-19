@@ -1,0 +1,49 @@
+.post__container {
+  @apply container mx-auto w-[80%] md:w-[60%] text-white leading-7 pb-24;
+}
+
+.post__container pre {
+  @apply p-4 rounded-md; 
+}
+
+.post__container p {
+  margin: 1.7rem 0;
+}
+
+.post__container h1,
+.post__container h2,
+.post__container h3,
+.post__container h4,
+.post__container h5,
+.post__container h6 {
+  @apply font-semibold my-[1.75rem];
+}
+
+.post__container h1 {
+  @apply text-3xl;
+}
+
+.post__container h2 {
+  @apply text-2xl;
+}
+
+.post__container h3 {
+  @apply text-xl;
+}
+
+.post__container h4 {
+  @apply text-lg;
+}
+
+.post__container ul {
+  list-style: circle;
+  margin: 1.75rem 0;
+}
+
+.post__container a {
+  @apply text-[#fa78c6] underline;
+}
+
+.post__container img {
+    @apply my-[1.75rem] rounded-md w-full;
+}
