@@ -60,7 +60,9 @@ const Post = ({ frontMatter, mdxSource }: IProps) => {
 export default Post;
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("pages/posts"));
+  const files = fs
+  .readdirSync(path.join("pages/posts"))
+  .filter((str) => str.endsWith(".mdx"));
 
   //Generate path for each MDX files
   const paths = files.map((file) => {
