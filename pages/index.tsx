@@ -13,8 +13,9 @@ export default function Home() {
         I am a{" "} 
         <span className="text-[#50AEF1] font-bold">Front-End Developer,</span>&nbsp;
         <span className="text-[#50AEF1] font-bold">Programmer</span> & a&nbsp;
-        <span className="text-[#50AEF1] font-bold">Problem Solver.</span>&nbsp;I like 
-        to code in my free time and have an immense passion for coding and an&nbsp;
+        <span className="text-[#50AEF1] font-bold">Problem Solver</span>&nbsp;and have passion for coding.&nbsp;
+        I have a strong interest in&nbsp;
+        <span className="text-[#50AEF1] font-bold">Research</span>&nbsp;and I am an&nbsp;
         <span className="text-[#50AEF1] font-bold">Open-Source Enthusiast.</span>
       </p>
       <p className="text-white sm:w-3/4 text-base sm:text-xl my-4 font-body">
@@ -23,7 +24,7 @@ export default function Home() {
         <span className="text-[#50AEF1] font-bold">B.Tech Computer Science Engineering.</span>
       </p>
       <div className="links my-12 flex sm:justify-between sm:w-1/4">
-        <Link href="/projects">
+        <Link href="https://github.com/shivang0-0">
         <div className="link flex items-center justify-start sm:text-xl text-base text-[#ccc] font-bold cursor-pointer mr-4 sm:mr-0">
           <img src="/icons/code-24.ico" alt="code icon" />
           &nbsp; Projects

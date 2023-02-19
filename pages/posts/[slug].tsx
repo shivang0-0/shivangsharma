@@ -29,9 +29,9 @@ const Post = ({ frontMatter, mdxSource }: IProps) => {
           {({ className, style, tokens, getLineProps, getTokenProps }) => (
             <pre className={className} style={style}>
               {tokens.map((line, i) => (
-                <div {...getLineProps({ line, key: i })}>
-                  {line.map((token, key) => (
-                    <span {...getTokenProps({ token, key })} />
+                <div {...getLineProps({ line, Key: i })}>
+                  {line.map((token, Key) => (
+                    <span {...getTokenProps({ token, Key })} />
                   ))}
                 </div>
               ))}
