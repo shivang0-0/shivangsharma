@@ -10,7 +10,7 @@ const Navbar = () => {
             &nbsp;&nbsp;Home
           </li>
         </Link>
-        <Link href="/projects">
+        <Link href="https://github.com/shivang0-0">
           <li className="mr-4 flex items-center text-white text-lg cursor-pointer">
             <img src="/icons/code-24.ico" alt="project icon" />
             &nbsp;&nbsp;Projects
