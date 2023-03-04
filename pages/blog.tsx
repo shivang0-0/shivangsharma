@@ -22,10 +22,13 @@ const Blog = ({ posts }: IProps) => {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto w-[80%] md:w-[60%] my-40">
+      <div className="container mx-auto w-[80%] md:w-[60%] mt-40 mb-8">
         <h1 className="text-white font-bold text-2xl">All Posts</h1>
-        {posts?.map((post) => (
-          <Post post={post} key={post.slug} />
+        {posts?.map((post, index) => (
+          <div key={post.slug}>
+            <Post post={post} />
+            {index !== posts.length - 1 && <div className="mt-12" />}
+          </div>
         ))}
       </div>
     </>
