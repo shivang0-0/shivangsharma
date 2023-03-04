@@ -22,8 +22,8 @@ const Blog = ({ posts }: IProps) => {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto w-[80%] md:w-[60%] my-12">
-        <h1 className="text-white font-bold text-2xl">Posts</h1>
+      <div className="container mx-auto w-[80%] md:w-[60%] my-40">
+        <h1 className="text-white font-bold text-2xl">All Posts</h1>
         {posts?.map((post) => (
           <Post post={post} key={post.slug} />
         ))}

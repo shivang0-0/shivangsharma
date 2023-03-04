@@ -37,6 +37,20 @@ export default function Home() {
         </div>
         </Link>
       </div>
+      <div className="social-links flex justify-start">
+        <a href="https://github.com/shivang0-0" >
+          <img src="/icons/github-32.png" alt="Github Icon" style={{marginRight: '30px'}}/>
+        </a>
+        <a href="https://www.linkedin.com/in/shivang-sharma-218058220/">
+          <img src="/icons/linkedin-32.png" alt="LinkedIn Icon" style={{marginRight: '30px'}}/>
+        </a>
+        <a href="mailto:shivang.sharma11@pm.me">
+          <img src="/icons/envelope-32.png" alt="Mail Icon" style={{marginRight: '30px'}}/>
+        </a>
+        <a href="https://www.instagram.com/shivang.sharma_/">
+          <img src="/icons/instagram-32-v2.png" alt="Instagram Icon" style={{marginRight: '30px'}}/>
+        </a>
+      </div>
     </div>
   );
 }
