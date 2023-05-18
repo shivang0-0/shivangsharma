@@ -11,7 +11,7 @@ export default function Home() {
       </h1>
       <p className="text-white sm:w-3/4 text-base sm:text-xl font-body">
         I am a{" "} 
-        <span className="text-[#50AEF1] font-bold">Front-End Developer,</span>&nbsp;
+        <span className="text-[#50AEF1] font-bold">Web Developer,</span>&nbsp;
         <span className="text-[#50AEF1] font-bold">Programmer</span> & a&nbsp;
         <span className="text-[#50AEF1] font-bold">Problem Solver</span>&nbsp;and have passion for coding.&nbsp;
         I have a strong interest in&nbsp;
