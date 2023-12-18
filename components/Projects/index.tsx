@@ -1,5 +1,6 @@
 import Image from "next/image";
 import personal from "public/project_assets/personal-website.png"
+import thatdumbguy from "public/project_assets/thatdumbguy.png"
 import { Project, ProjectBox } from "./ProjectBox/";
 
 const projects: Project[] = [
@@ -9,6 +10,13 @@ const projects: Project[] = [
     image: <Image src={personal} placeholder="blur" alt="Portfolio Project" />,
     sourceLink: "https://github.com/shivang0-0/shivangsharma",
     demoLink: "https://shivangsharma.vercel.app/",
+  },
+  {
+    name: "thatdumbguy",
+    description: "A voice based song player written in bash.",
+    image: <Image src={thatdumbguy} placeholder="blur" alt="thatdumbguy" />,
+    sourceLink: "https://github.com/shivang0-0/thatdumbguy",
+    demoLink: "https://github.com/shivang0-0/thatdumbguy/blob/main/README.md",
   },
 ];
 
