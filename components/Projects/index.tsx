@@ -1,6 +1,7 @@
 import Image from "next/image";
 import personal from "public/project_assets/personal-website.png"
 import thatdumbguy from "public/project_assets/thatdumbguy.png"
+import eVaarta from "public/project_assets/evaarta.png"
 import { Project, ProjectBox } from "./ProjectBox/";
 
 const projects: Project[] = [
@@ -17,6 +18,13 @@ const projects: Project[] = [
     image: <Image src={thatdumbguy} placeholder="blur" alt="thatdumbguy" />,
     sourceLink: "https://github.com/shivang0-0/thatdumbguy",
     demoLink: "https://github.com/shivang0-0/thatdumbguy/blob/main/README.md",
+  },
+  {
+    name: "eVaarta",
+    description: "A webRTC based video calling solution ",
+    image: <Image src={eVaarta} placeholder="blur" alt="eVaarta" />,
+    sourceLink: "https://github.com/shivang0-0/eVaarta",
+    demoLink: "https://github.com/shivang0-0/eVaarta/blob/main/README.md",
   },
 ];
 
